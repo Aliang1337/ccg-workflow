@@ -98,7 +98,7 @@ async function handleInstallAceTool(isRs: boolean): Promise<void> {
   console.log()
   console.log(ansis.cyan(`📖 获取 ${toolName} 访问方式：`))
   console.log(`   ${ansis.gray('•')} ${ansis.cyan('官方服务')}: ${ansis.underline('https://augmentcode.com/')}`)
-  console.log(`   ${ansis.gray('•')} ${ansis.cyan('第三方中转')} ${ansis.green('(推荐)')}: ${ansis.underline('https://acemcp.heroman.wtf/')}`)
+  console.log(`   ${ansis.gray('•')} ${ansis.cyan('第三方中转')} ${ansis.green('(推荐)')}: ${ansis.underline('https://acemcp.heroman.wtf/relay/')}`)
   console.log(`   ${ansis.gray('⚠')} ${ansis.yellow('注意')}: enhance_prompt 已不可用，search_context 代码检索正常`)
   console.log()
 

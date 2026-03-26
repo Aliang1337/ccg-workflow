@@ -330,7 +330,7 @@ export async function init(options: InitOptions = {}): Promise<void> {
       console.log(ansis.cyan.bold(`  🔧 ace-tool MCP`))
       console.log()
       console.log(`     ${ansis.gray('•')} ${ansis.cyan(i18n.t('init:mcp.officialService'))}: ${ansis.underline('https://augmentcode.com/')}`)
-      console.log(`     ${ansis.gray('•')} ${ansis.cyan(i18n.t('init:mcp.proxyService'))} ${ansis.yellow(`(${i18n.t('init:mcp.noSignup')})`)}: ${ansis.underline('https://acemcp.heroman.wtf/')}`)
+      console.log(`     ${ansis.gray('•')} ${ansis.cyan(i18n.t('init:mcp.proxyService'))} ${ansis.yellow(`(${i18n.t('init:mcp.noSignup')})`)}: ${ansis.underline('https://acemcp.heroman.wtf/relay/')}`)
       console.log()
 
       const aceAnswers = await inquirer.prompt([
@@ -879,7 +879,7 @@ export async function init(options: InitOptions = {}): Promise<void> {
       console.log(`     ${ansis.green('2.')} ${ansis.cyan('ace-tool / ace-tool-rs')}: ${ansis.underline('https://augmentcode.com/')}`)
       console.log(`        ${ansis.gray(i18n.t('init:mcp.promptEnhancement'))}`)
       console.log()
-      console.log(`     ${ansis.green('3.')} ${ansis.cyan('ace-tool ' + i18n.t('init:mcp.proxyService'))} ${ansis.yellow(`(${i18n.t('init:mcp.noSignup')})`)}: ${ansis.underline('https://acemcp.heroman.wtf/')}`)
+      console.log(`     ${ansis.green('3.')} ${ansis.cyan('ace-tool ' + i18n.t('init:mcp.proxyService'))} ${ansis.yellow(`(${i18n.t('init:mcp.noSignup')})`)}: ${ansis.underline('https://acemcp.heroman.wtf/relay/')}`)
       console.log(`        ${ansis.gray(i18n.t('init:mcp.communityProxy'))}`)
       console.log()
       console.log(`     ${ansis.green('4.')} ${ansis.cyan('ContextWeaver')} ${ansis.yellow(`(${i18n.t('init:mcp.freeQuota')})`)}: ${ansis.underline('https://siliconflow.cn/')}`)
